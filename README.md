@@ -26,6 +26,16 @@ A total of 6 APIs are provided. API is classified into Sync type and Async type 
 
 | API | From | To | Function | Note |
 |-----|--------|--------|------|------|
+|<sub>Exchange Rate inquiry</sub>|<sub>Partners</sub>|<sub>MW30P</sub>|<sub>Item/Point/etc To PlayToken Exchange Rate Inquiry<br>PlayToken To Item/Point/etc Exchange Rate Inquiry<br>(Partner's various benefits to users, etc.)</sub>|<sub></sub>|
+|<sub>Exchange</sub>|<sub>Partners</sub>|<sub>MW30P</sub>|<sub>Item/Point/etc To PlayToken Exchange<br>PlayToken To Item/Point/etc Exchange</sub>|<sub>Async</sub>|
+|<sub>Passport</sub>|<sub>Partners</sub>|<sub>MW30P</sub>|<sub>Certification services for execution of key APIs</sub>|<sub></sub>|
+|<sub>Withdrawal address</sub>|<sub>Partners</sub>|<sub>MW30P</sub>|<sub>Verification and registration of externally available addresses held<br>by users of the Partners (withdrawal address)</sub>|<sub></sub>|
+|<sub>Withdrawal pre-trade</sub>|<sub>Partners</sub>|<sub>MW30P</sub>|<sub>Withdrawal preliminary transactions</sub>|<sub></sub>|
+|<sub>Withdrawal</sub>|<sub>Partners</sub>|<sub>MW30P</sub>|<sub>Withdraw withdrawable tokens(PlayToken) to an external address</sub>|<sub>Async</sub>|
+|<sub>Block Notify</sub>|<sub>MW30P</sub>|<sub>Partners</sub>|<sub>Exchange API, Blockchain processing result of Withdrawal API sent<br>(Confirm completed or not)</sub>|<sub>Async</sub>|
+
+| API | From | To | Function | Note |
+|-----|--------|--------|------|------|
 |Exchange Rate inquiry|Partners|MW30P|Item/Point/etc To PlayToken Exchange Rate Inquiry<br>PlayToken To Item/Point/etc Exchange Rate Inquiry<br>(Partner's various benefits to users, etc.)||
 |Exchange|Partners|MW30P|Item/Point/etc To PlayToken Exchange<br>PlayToken To Item/Point/etc Exchange|Async|
 |Passport|Partners|MW30P|Certification services for execution of key APIs||
